@@ -65,5 +65,5 @@ trivial (`effect-id` reads `:type`; `pipeline-specs` reads `:effects`).
 Run tests:
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
