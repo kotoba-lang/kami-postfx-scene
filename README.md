@@ -55,8 +55,8 @@ trivial (`effect-id` reads `:type`; `pipeline-specs` reads `:effects`).
 
 ## Size / tests
 
-- `src/postfx_scene.cljc`: 386 lines.
-- `test/postfx_scene_test.cljc`: 174 lines — 15 tests / 145 assertions, 0
+- `src/postfx_scene.cljk`: 386 lines.
+- `test/postfx_scene_test.cljk`: 174 lines — 15 tests / 145 assertions, 0
   failures. Ports every original Rust `#[test]` from
   `kami-postfx-scene/src/lib.rs`'s `mod tests` (9 tests) and
   `kami-postfx-scene/tests/postfx_parity.rs` (4 tests) 1:1, plus a
